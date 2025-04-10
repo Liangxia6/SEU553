@@ -1,0 +1,71 @@
+自我介绍
+
+Good morning espected professors!
+It's my honor to participate in this interview.
+
+My name is HongChenyang, 22 years old and my hometoen is JiXi, Anhui.
+I studied at Anhui University of Technology, majoring in Computer Science and Technology.
+
+Now, I am doing my best to obtaining a chance to attend Southeast University-Monash Universicy Joint Graduate School.
+
+Over the past four year, I have had a strong passion for computer science, 
+I worked hard in undergraduate courses such as Data Structures, Operating Systems, and Databases.
+I also learned from open-source projects online and read classic computer science books.
+
+Outside of my studies, I enjoy reading books, listening music. 
+I also like playing basketball, which taught me to keep trying and always do my best.
+
+Southeast University is my dream school because of it's outstanding computer science program and rich studying atmosphere.
+I aim to pursue graduate studies to deepen my understanding of computer science, boaden my horizons,and conduct more research in. 
+I also want to improve my English ability through international collaborations.
+
+普通问题
+
+1.CET6
+My English ability was not strong initially. When I decide to aim for seu, I committed myself to enhancing my abilities in reading, writing, listening, and speaking. Unfortunately, I missed the CET6 exam due to unexpected circumstances. I am now dully prepared to get a satisfactory score in the next attempt.
+
+2.竞赛和科研
+I feel shame, Lack of research and competition experience is a regret of my undergraduate.
+In the second year, I realized my shortcomings, so I haven taken algorithm courses, practiced algorithm problems on online judge .
+I also engaged in academic discussions with my supercisor, which spark my interst in research.
+If I am dortunate enough to pursue graduate studies, I will do my best in these three tears, compele mt research peojects and actively participate in competitions.
+
+学科问题
+
+数据结构算法
+操作系统
+数据库
+
+
+
+项目介绍
+
+I developed a high-performance network library based on C++11 for Linux ,It's adopts an Event-driven model, using the one loop per thread approach. 
+And it's main reactor handles client connections and distributies tasks to multiple worker threads.
+Each sub-reactor leverages Linux's epoll mechanism to achieve I/O multiplexing.
+The library re-encapsulates threads,TCP,logging and more .Itsuitable for building servers for chat, games and more.
+
+项目相关问题
+
+1.简单介绍epoll
+Epoll is a Linux kernel mechanism for efficient I/O event monitoring by maintaining a red-black tree. 
+Unlike select or poll, it uses a callback-based approach. 
+epoll_create() to initialize, epoll_ctr() to manage fd and epoll_wait() to monitor enevts.
+
+2.简单介绍多线程编程和网络编程
+Multithreading enables concurrenr execution od task within a single process, improing performance in CPU or I/O.
+The key of coding include thread synchronization and thread pools management. such as pthread_mutex_lock(), sem_init()/wait().
+Network programming involves communication between devices over a network, typically using protocols like TCP/IP or UDP.
+The key of coding include socket coding such as bind() listen() accept().
+
+3.你是如何学习这个项目
+Firstly, I studied Linux system programming and network prorocols.
+Secondly, I analyzed open-source projects like libevent and Boost to learn design apporeach.
+Finally, I seach online and ask teacher when I have problems.
+
+
+攻读方向
+
+
+
+
